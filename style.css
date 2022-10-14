@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    body{
+        background-color: #444;
+
+    }
+    html{
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+        scroll-padding: 7rem;
+
+    }
+    .container .slide .image img{
+        
+    }
