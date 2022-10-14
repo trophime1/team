@@ -17,6 +17,70 @@
         scroll-padding: 7rem;
 
     }
+.card h2{
+    font-size: 3rem;
+    color: #fff;
+    margin: 6rem 0;
+    position: relative;
+    text-align: center;
+}
+.card h2::after{
+    content: " ";
+width: 15rem;
+position: absolute;
+border: 2px solid #fff;
+left: 0;
+right: 0;
+bottom: -3rem;
+margin: 0 auto;
+}
     .container .slide .image img{
-        
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        overflow: hidden;
+        object-fit: cover;
+        margin: 2rem;
     }
+  .container{
+    height: 45rem;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+  }  
+  .container .slide{
+    border-radius: 2rem;
+    background-color: #888;
+
+  }
+.container .slide .content h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+.container .slide .content p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    color: #fff;
+    line-height: 2rem;
+    width: 90%;
+    margin: auto;
+}
+.container .slide .content .icons div{
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #444;
+    color: #fff;
+    margin-left: .5rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+.container .slide .content .icons div:hover{
+    color: #fff;
+    background-color: rgb(0, 250, 237);
+}
