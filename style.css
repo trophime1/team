@@ -51,7 +51,7 @@ margin: 0 auto;
   }  
   .container .slide{
     border-radius: 2rem;
-    background-color: #888;
+   
 
   }
 .container .slide .content h1{
@@ -83,4 +83,20 @@ margin: 0 auto;
 .container .slide .content .icons div:hover{
     color: #fff;
     background-color: rgb(0, 250, 237);
+}
+.container .slide:nth-child(1n){
+    background: rgba(216,17,17);
+}
+.container .slide:nth-child(2n){
+    background: rgba(8,82,219);
+}
+.container .slide:nth-child(3n){
+    background: rgba(192,219,0);
+}
+.container .slide:nth-child(4n){
+    background: rgba(2,231,90);
+}
+
+.container .slide:nth-child(5n){
+    background: rgb(206,2,162);
 }
